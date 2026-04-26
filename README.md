@@ -33,7 +33,7 @@ You will need two terminal windows to run the frontend and backend simultaneousl
 cd backend
 node server.js
 \`\`\`
-*(The server will start on http://localhost:5001 and connect to MongoDB)*
+*(The server will start on http://localhost:5023 and connect to MongoDB)*
 
 **Terminal 2 (Frontend):**
 \`\`\`bash
