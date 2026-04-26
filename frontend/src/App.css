@@ -1,0 +1,55 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e2125; /* Dark background from screenshot */
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header matching the PDF */
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #16181b;
+  border-bottom: 2px solid #2852a3; /* Team Blue accent */
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+/* Container for all pages */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* Standardized Buttons */
+.btn-primary {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+}

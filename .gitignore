@@ -1,0 +1,15 @@
+# Node modules (Crucial - do not commit these!)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# macOS system files
+.DS_Store
+
+# Ignore uploaded user images so you don't push personal photos to GitHub
+backend/uploads/*
+!backend/uploads/.gitkeep
